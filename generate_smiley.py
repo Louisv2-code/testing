@@ -1,6 +1,9 @@
 from PIL import Image, ImageDraw
 
 def create_smiley(path='smiley.png'):
+    """
+    Generates a 256x256 smiley face image with a yellow background.
+    """
     size = (256, 256)
     background = (255, 255, 255)
     face = (255, 223, 0)
